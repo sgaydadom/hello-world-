@@ -11,3 +11,8 @@ a {
   color: #DB2955;
 
 }
+img {
+  max-width: 100%;
+  height: auto;
+
+}
