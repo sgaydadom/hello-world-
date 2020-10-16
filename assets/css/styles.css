@@ -1,18 +1,44 @@
 body {
-  background-color: #9DA39A;
+  background-color: #ACEB98;
   font-family: arial, sans-serif;
  }
 
+.wrapper {
+  background: #ffffff;
+  width: 93%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 12px 20px;
+
+}
+
 h1, h2 {
-  color: #363457;
+  color: #764248;
+  <!--I chose to use a magenta shade for the font color because it was close to the contrasting red, while still being close enough to black to seem more neutral and not too jarring.-->
+}
+
+blockquote {
+  border-left: 3px solid #003E1F;
+  padding-left: 12px;
+  background-color: #bad9a2
+  <!--Italics help separate the quote from the character heading and the description text.-->
+}
+
+p.caption {
+  font-style: italic;
 }
 
 a {
   color: #DB2955;
 
 }
-img {
-  max-width: 100%;
-  height: auto;
 
+img {
+  display: block;
+  max-width: 98%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
+
+video
