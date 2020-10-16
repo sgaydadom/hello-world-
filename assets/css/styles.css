@@ -14,14 +14,14 @@ body {
 
 h1, h2 {
   color: #764248;
-  <!--I chose to use a magenta shade for the font color because it was close to the contrasting red, while still being close enough to black to seem more neutral and not too jarring.-->
+
 }
 
 blockquote {
   border-left: 3px solid #003E1F;
   padding-left: 12px;
   background-color: #bad9a2
-  <!--Italics help separate the quote from the character heading and the description text.-->
+
 }
 
 p.caption {
