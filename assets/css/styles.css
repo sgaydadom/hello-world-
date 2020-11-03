@@ -4,7 +4,7 @@ body {
  }
 
 .wrapper {
-  background: #ffffff;
+  background-color: #ffffff;
   width: 93%;
   max-width: 800px;
   margin: 0 auto;
@@ -13,8 +13,7 @@ body {
 }
 
 h1, h2 {
-  color: #764248;
-
+  color: #9e2a2b;
 }
 
 blockquote {
@@ -43,8 +42,13 @@ img {
 }
 
 header {
+  background-image: url("../images/moroccan-flower.png");
   border-bottom: 2px solid #d2d2d2;
   text-align: center;
+}
+
+header.wrapper {
+  padding: 26px 20px;
 }
 
 footer {
@@ -55,6 +59,14 @@ footer {
   font-family: courier;
   font-size: 70%;
   border-top: 2px solid #d2d2d2;
+}
+
+article {
+  padding-top: 14px;
+}
+
+aside h2 {
+  font-size: 1.4rem;
 }
 
 /*for mobile phones */

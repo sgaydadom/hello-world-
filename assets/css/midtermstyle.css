@@ -1,0 +1,122 @@
+article {
+  padding-top: 14px;
+}
+/* Lavender is a good neutral background color in regard to accessibilty */
+body {
+  background-color: #d8bbff;
+  font-family: arial, sans-serif;
+  text-align: left;
+  line-height: 1.3;
+ }
+
+.wrapper {
+  background-color: #ffffff;
+  width: 93%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 12px 20px;
+
+}
+
+h1, h2, h3, h4 {
+  color: #023047
+
+
+}
+/* having the borders on the left and right help solidify a border without being too jarring, as well as distinguishing the quote apart from the text above and below */
+blockquote {
+  font-size: 0.9em;
+  border-left: 3px solid #003E1F;
+  border-right: 3px solid #003E1F;
+  padding-left: 12px;
+  background-color: #d8f3dc;
+
+}
+
+cite {
+  font-size: 0.9em;
+  padding-left: 12px;
+  background-color: #d8f3dc;
+
+
+
+}
+
+p.caption {
+  font-style: italic;
+}
+
+/* This color contrasts well with the lavender background, without being too jarring */
+a {
+  color: #004e00;
+
+}
+
+img {
+  display: block;
+  max-width: 48%;
+  height: auto;
+  margin-right: auto;
+  margin-left: 0;
+  border-style: solid;
+  text-align: left;
+
+}
+
+header {
+  background-image:url("../images/geometric-leaves.png");
+  border-bottom: 2px solid #d2d2d2;
+  text-align: center;
+}
+
+header.wrapper {
+  padding: 28px 20px;
+  height: auto;
+  width: auto;
+}
+
+footer {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: monospace;
+  font-family: courier;
+  font-size: 70%;
+  border-top: 2px solid #d2d2d2;
+}
+
+article {
+  padding-top: 14px;
+}
+
+aside h2 {
+  font-size: 1.4rem;
+}
+
+.left {
+  position: absolute;
+  left: 0px;
+  width: 255px;
+  border: 3px solid
+  padding: 10px
+}
+/* I wanted to slightly separate out the massive blocks of text without completely ruining the flow */
+hr.dashed {
+  border-top: 50px #c77dff
+}
+p.dotted {
+  border-top: 20px #ef476f
+  padding: 14px;
+}
+
+/* Used a slightly different font style and size to create a soft contrast */
+ol {
+  font-family: payrus;
+  font-style: normal;
+}
+
+/* Contrasts with the lavender background, but also helps distinguish between the separate directions */
+mark.DarkGreen {
+  color: #006400;
+  background: none;
+}
